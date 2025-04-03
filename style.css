@@ -1,25 +1,53 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-    color: #fff;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.scroll-container{
-    background: rgb(7, 7, 7);
-    width: 25rem;
-    padding: 30px;
+body {
+  background: rgb(28, 28, 35);
 }
 
-.scroll-div{
-    width: 400px;
-    height: 500px;
-    background: rgb(7, 7, 7);
-    overflow: hidden;
-    overflow-y: scroll;
+.content-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.scroll-object{
-    padding: 20px;
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  border: 2px solid white;
+  width: 120px;
+  height: 100px;
+  margin: 20px;
+  text-transform: capitalize;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.teal {
+  background-color: teal;
 }
